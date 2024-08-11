@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.app {
+  padding: 10px 70px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bannerImg {
+  height: 550px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.middle {
+  margin-left: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.carouselBox {
+  height: 250px;
+}
+.contactimg {
+  width: 550px;
+  height: auto;
+}
+.colorvoilet {
+  color: rgb(85, 24, 171);
+}
+.voiletbtn {
+  background-color: rgb(85, 24, 171);
+  color: white;
+  border: none;
+}
+.colorVioletBtn {
+  border: 1px solid rgb(85, 24, 171);
+  color: rgb(85, 24, 171);
+}
+.colorOrange {
+  color: rgb(178, 119, 9);
+}
+.bgViolet {
+  background-color: rgb(85, 24, 171);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.featureImg {
+  width: 500px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 996px) {
+}
+@media screen and (max-width: 768px) {
+  .prodBoxes {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 576) {
+}
+@media screen and (max-width: 480px) {
+  .bannerImg {
+    height: 300px;
   }
+  .featureImg {
+    width: 300px;
+  }
+  .app {
+    padding: 10px 25px;
+  }
+  .contactimg {
+    width: 300px;
+  }
+  .contactBox {
+    height: 600px;
+  }
+  /* .carouselBox img {
+    height: 40px !important;
+    width: 40px;
+  } */
 }
