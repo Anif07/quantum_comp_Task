@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container-fluid">
-          <a className="navbar-brand colorvoilet fw-bolder" href="#">
+          <a className="navbar-brand colorvoilet fw-bolder" href="#Jillion">
             Jillion Technologies
           </a>
           <button

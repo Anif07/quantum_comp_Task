@@ -6,7 +6,7 @@ const Banner = () => {
       className="banner d-flex mt-5 flex-wrap gap-3 justify-content-center"
       id="home"
     >
-      <div className="mt-5">
+      <div className="mt-5" id="Jillion">
         <h1 className="colorvoilet">WE MAKE YOUR IDEA'S</h1>
         <h1 className="colorOrange">INTO REALITY</h1>
         <p>
