@@ -2,14 +2,14 @@ import React from "react";
 
 const Contactus = () => {
   return (
-    <div className="mx-5 px-4 " id="contactus">
+    <div className="" id="contactus">
       <h1 className="text-center my-5">Contact Us</h1>
       <div className="d-flex justify-content-center gap-3 me-5 pe-3 flex-wrap contactBox">
         <div className="flex-grow-1">
           <img
             src="./assets/contactus.png"
             alt="contactus"
-            className="contactimg"
+            className="contactimg ms-4"
           />
         </div>
         <div className="flex-grow-1 ">

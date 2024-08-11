@@ -7,7 +7,7 @@ const Features = () => {
         <div className="my-5">
           <h1 className="text-center mb-5">Features</h1>
         </div>
-        <div className="d-flex gap-5 my-5 flex-wrap justify-content-center">
+        <div className="d-flex gap-5 my-5 justify-content-center featurewrap">
           <div>
             <img
               src="./assets/features1.png"
@@ -25,7 +25,7 @@ const Features = () => {
             </p>
           </div>
         </div>{" "}
-        <div className="d-flex gap-5 my-5 flex-wrap justify-content-center flex-row-reverse middle flex-wrap">
+        <div className="d-flex gap-5 my-5  justify-content-center flex-row-reverse middle featurewrap">
           <div className="flex-grow-1">
             <img
               src="./assets/features2.png.jpg"
@@ -44,7 +44,7 @@ const Features = () => {
           </div>
         </div>
         {/* 3 */}
-        <div className="d-flex gap-5 my-5 flex-wrap justify-content-center">
+        <div className="d-flex gap-5 my-5  justify-content-center featurewrap">
           <div>
             <img
               src="./assets/features3.png"

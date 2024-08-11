@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light ">
+    <div className="navCont">
+      <nav className="navbar navbar-expand-lg navbar-light nav">
         <div className="container-fluid">
           <a className="navbar-brand colorvoilet fw-bolder" href="#Jillion">
             Jillion Technologies

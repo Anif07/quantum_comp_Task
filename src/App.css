@@ -1,6 +1,13 @@
 .app {
   padding: 10px 70px;
 }
+.navCont {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+}
 .bannerImg {
   height: 550px;
 }
@@ -42,14 +49,20 @@
 }
 
 @media screen and (max-width: 996px) {
+  .featureImg {
+    width: 400px;
+  }
 }
 @media screen and (max-width: 768px) {
   .prodBoxes {
     flex-direction: column;
     align-items: center;
   }
+  .featurewrap {
+    flex-wrap: wrap;
+  }
 }
-@media screen and (max-width: 576) {
+@media screen and (max-width: 576px) {
 }
 @media screen and (max-width: 480px) {
   .bannerImg {
@@ -71,4 +84,15 @@
     height: 40px !important;
     width: 40px;
   } */
+}
+@media screen and (max-width: 360px) {
+  .footer h4 {
+    font-size: 1.1rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
+  }
+  .app {
+    padding: 10px 15px;
+  }
 }
