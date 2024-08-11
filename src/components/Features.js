@@ -25,7 +25,7 @@ const Features = () => {
             </p>
           </div>
         </div>{" "}
-        <div className="d-flex gap-5 my-5  justify-content-center flex-row-reverse middle featurewrap">
+        <div className="d-flex gap-5  justify-content-center flex-row-reverse middle featurewrap">
           <div className="flex-grow-1">
             <img
               src="./assets/features2.png.jpg"
