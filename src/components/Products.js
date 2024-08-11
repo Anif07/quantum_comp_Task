@@ -3,7 +3,7 @@ import React from "react";
 const Products = () => {
   return (
     <>
-      <div className="products my-5 py-5">
+      <div className="products my-5 py-5" id="products">
         <h1 className="text-center my-4">Products</h1>
         <div className="d-flex gap-4 justify-content-center prodBoxes">
           <div class="card cardwidth">
@@ -38,7 +38,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="testimonials my-5 pt-5">
+      <div className="testimonials my-5 pt-5" id="testimonals">
         <h1 className="text-center mb-5">Testimonals</h1>
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
           <div class="carousel-indicators">

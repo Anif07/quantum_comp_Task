@@ -2,7 +2,10 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="banner d-flex mt-5 flex-wrap gap-3 justify-content-center">
+    <div
+      className="banner d-flex mt-5 flex-wrap gap-3 justify-content-center"
+      id="home"
+    >
       <div className="mt-5">
         <h1 className="colorvoilet">WE MAKE YOUR IDEA'S</h1>
         <h1 className="colorOrange">INTO REALITY</h1>

@@ -23,27 +23,39 @@ const Navbar = () => {
             <div className="mx-auto"></div>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link colorvoilet fw-semibold" href="#">
+                <a className="nav-link colorvoilet fw-semibold" href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link colorvoilet fw-semibold" href="#">
+                <a
+                  className="nav-link colorvoilet fw-semibold"
+                  href="#features"
+                >
                   Features
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link colorvoilet fw-semibold" href="#">
+                <a
+                  className="nav-link colorvoilet fw-semibold"
+                  href="#products"
+                >
                   Products
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link colorvoilet fw-semibold" href="#">
+                <a
+                  className="nav-link colorvoilet fw-semibold"
+                  href="#testimonals"
+                >
                   Testimonials
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link colorvoilet fw-semibold" href="#">
+                <a
+                  className="nav-link colorvoilet fw-semibold"
+                  href="#contactus"
+                >
                   Contact us
                 </a>
               </li>

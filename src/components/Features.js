@@ -3,13 +3,17 @@ import React from "react";
 const Features = () => {
   return (
     <>
-      <div className="mt-5">
+      <div className="mt-5" id="features">
         <div className="my-5">
           <h1 className="text-center mb-5">Features</h1>
         </div>
         <div className="d-flex gap-5 my-5 flex-wrap justify-content-center">
           <div>
-            <img src="./assets/features1.png" className="featureImg" />
+            <img
+              src="./assets/features1.png"
+              className="featureImg"
+              alt="features1"
+            />
           </div>
           <div className="mt-5">
             <p>
