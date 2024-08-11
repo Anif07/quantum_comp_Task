@@ -84,7 +84,7 @@ const Products = () => {
               <img
                 src="./assets/person2.jpg"
                 class="d-block w-10 h-50 rounded-circle mx-auto mb-4 object-fit-cover"
-                alt="person1"
+                alt="person2"
               />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
@@ -97,7 +97,7 @@ const Products = () => {
               <img
                 src="./assets/person3.jpg"
                 class="d-block w-10 h-50 rounded-circle mx-auto mb-4 object-fit-cover"
-                alt="person1"
+                alt="person3"
               />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>

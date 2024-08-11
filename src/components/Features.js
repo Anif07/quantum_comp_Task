@@ -42,7 +42,11 @@ const Features = () => {
         {/* 3 */}
         <div className="d-flex gap-5 my-5 flex-wrap justify-content-center">
           <div>
-            <img src="./assets/features3.png" className=" featureImg" />
+            <img
+              src="./assets/features3.png"
+              className=" featureImg"
+              alt="feature3"
+            />
           </div>
           <div className="mt-5">
             <p>
